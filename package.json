@@ -1,0 +1,29 @@
+{
+  "name": "types-univer",
+  "version": "1.0.0",
+  "description": "classes, interfaces for univer project",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"*.{ts,js}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X932/types_univer.git"
+  },
+  "author": "X932",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/X932/types_univer/issues"
+  },
+  "homepage": "https://github.com/X932/types_univer#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "typescript": "^4.5.5"
+  }
+}
