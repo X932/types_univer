@@ -1,4 +1,4 @@
-export const UniverConfigOptions = {
-  url: 'amqp://127.0.0.1:5672',
-  queue: 'university_queue',
-};
+export interface UniverConfigOptions {
+  url: string;
+  queue: string;
+}
