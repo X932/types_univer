@@ -1,4 +1,4 @@
-export interface UniverConfigOptions {
+export interface IUniverConfigOptions {
   url: string;
   queue: string;
 }
