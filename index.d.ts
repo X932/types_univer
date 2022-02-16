@@ -1,1 +1,2 @@
-export { UniverConfigOptions } from './services/univer/config';
+import { IUniverConfigOptions } from './services/univer/config';
+export const UniverConfigOptions: IUniverConfigOptions;

@@ -1,4 +1,5 @@
-import { UniverConfigOptions } from './services/univer/config/index';
+const UniverConfigOptions = require('./services/univer/config');
+
 module.exports = {
   UniverConfigOptions,
 };
