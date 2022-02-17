@@ -1,8 +1,8 @@
-const UniverConfigOptions = require('./services/univer/config');
-const DocumentConfigOptions = require('./services/documents/config');
+const UniverOptions = require('./services/univer/config');
+const DocumentOptions = require('./services/documents/config');
 const ServicesConfigs = {
-  UniverConfigOptions,
-  DocumentConfigOptions,
+  UniverOptions,
+  DocumentOptions,
 };
 
 module.exports = { ServicesConfigs };
