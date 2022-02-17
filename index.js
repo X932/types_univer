@@ -5,4 +5,4 @@ const ServicesConfigs = {
   DocumentConfigOptions,
 };
 
-module.exports = ServicesConfigs;
+module.exports = { ServicesConfigs };
