@@ -3,4 +3,4 @@ const UniverConfigOptions = {
   queue: 'university_queue',
 };
 
-module.exports = { UniverConfigOptions };
+module.exports = UniverConfigOptions;

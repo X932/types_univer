@@ -3,4 +3,4 @@ const DocumentConfigOptions = {
   queue: 'documents_queue',
 };
 
-module.exports = { DocumentConfigOptions };
+module.exports = DocumentConfigOptions;
