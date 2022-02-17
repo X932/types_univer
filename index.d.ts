@@ -1,6 +1,7 @@
 import { IUniverConfigOptions } from './services/univer/config';
 import { IDocumentConfigOptions } from './services/documents/config';
-export interface ServicesConfigs {
+type ServicesConfigs = {
   UniverConfigOptions: IUniverConfigOptions;
   DocumentConfigOptions: IDocumentConfigOptions;
-}
+};
+export default ServicesConfigs;
