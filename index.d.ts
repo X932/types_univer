@@ -11,5 +11,6 @@ type MessagePatternsType = {
   Auth: IAuthMessagePatterns;
 };
 
+export { SignUpUserDto } from './services/shared/dtos/auth';
 export const ServicesConfigs: ServicesConfigsType;
 export const MessagePatterns: MessagePatternsType;
